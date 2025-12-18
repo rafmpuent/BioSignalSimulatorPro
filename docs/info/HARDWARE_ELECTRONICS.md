@@ -146,7 +146,7 @@ Este documento presenta el diseño electrónico detallado del BioSimulator Pro, 
 │   ║                          PCB PRINCIPAL                                 ║│
 │   ║                                                                        ║│
 │   ║  ┌────────┐  ┌──────────┐  ┌────────┐  ┌────────┐  ┌────────┐        ║│
-│   ║  │BORNERA │─►│  ESP32   │─►│MCP6002 │─►│  BNC   │  │LED RGB │        ║│
+│   ║  │BORNERA │─►│  ESP32   │─►│NE5532P │─►│  BNC   │  │LED RGB │        ║│
 │   ║  │5V/GND  │  │ NodeMCU  │  │Buffer  │  │0-3.3V  │  │Estado  │        ║│
 │   ║  └───┬────┘  └────┬─────┘  └────────┘  └────────┘  └────────┘        ║│
 │   ║      │            │                                                   ║│
